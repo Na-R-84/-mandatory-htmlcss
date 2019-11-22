@@ -1,0 +1,29 @@
+
+body{
+    text-align: center;
+}
+#header{
+   
+    Margin: 0px;
+    padding: 30px;
+    Border: 0px;
+    Color:rgb(54, 54, 54);
+    Width: 100%;
+    Height: 110px;
+    Background:rgba(44, 43, 43, 0.514);
+  
+    
+}
+#menu{
+    Border: rgb(221, 17, 17);
+    Background: rgb(204, 204, 204);
+    Color: rgb(3, 3, 3)
+}
+#menu li{
+    Display: inline-block;
+    List-style: none;
+    Padding:5px;
+    Font: bold 14px tahoma;
+
+
+}
