@@ -35,6 +35,15 @@ html, body{
     Font: bold 14px tahoma;
     float: right;
 }
+
+/* #menu .active-page
+{
+    Display: inline-block;
+    List-style: none;
+    padding-right:60px;
+    Font: bold 14px tahoma;
+    background-color:rgba(130, 223, 252, 0.829);
+} */
 #menu li :active{
     color:rgba(0, 37, 68, 0.829);
 }
@@ -44,7 +53,7 @@ html, body{
 }
 #menu li :hover{
   background-color: rgba(130, 223, 252, 0.829);  
-  text-decoration: underline;
+  text-decoration: underline rgba(130, 223, 252, 0.829);
   text-decoration-color: whitesmoke;
 
 }
@@ -97,6 +106,7 @@ footer{
     Color:rgba(130, 223, 252, 0.829);
     text-align: center;
     margin-bottom: 0px;
+    font-size: x-small;
 }
 
 form input{
