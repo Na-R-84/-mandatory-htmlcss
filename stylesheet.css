@@ -1,29 +1,135 @@
 
-body{
+html, body{
     text-align: center;
+    height: 1000px;
+    background-color: rgba(17, 109, 110, 0.952);
+    font-family: 'Bree Serif', serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
 }
 #header{
-   
-    Margin: 0px;
-    padding: 30px;
+    margin: 0px;
+    padding-top: 60px;
     Border: 0px;
-    Color:rgb(54, 54, 54);
+    Color:rgba(130, 223, 252, 0.829);
     Width: 100%;
-    Height: 110px;
-    Background:rgba(44, 43, 43, 0.514);
-  
-    
+    Height: 140px;
+    Background: rgb(21, 76, 88);
+    font-family: unset;
+
 }
 #menu{
-    Border: rgb(221, 17, 17);
-    Background: rgb(204, 204, 204);
-    Color: rgb(3, 3, 3)
+    margin:20px 50px 20px 50px;
+    width: 100%;
+    border: rgb(0, 47, 61) 2px;
+    
+    color: rgb(1, 29, 56);
+
 }
 #menu li{
     Display: inline-block;
     List-style: none;
-    Padding:5px;
+    padding-right:60px;
     Font: bold 14px tahoma;
+    float: right;
+}
+#menu li :active{
+    color:rgba(0, 37, 68, 0.829);
+}
+#menu li :visited{
+    color: rgba(6, 39, 66, 0.829); 
+    text-shadow: turquoise;
+}
+#menu li :hover{
+  background-color: rgba(130, 223, 252, 0.829);  
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
 
+}
+img{
+    width: 35%;
+    height: 10%;
+    margin-top: 20px;
+}
+#about-me{
+   font-style: italic;
+}
+table{
+    width: 100%;
+    table-layout: auto;
+}
+table th{
+    background-color:rgb(21, 76, 88);
+    color: rgba(130, 223, 252, 0.829);
+    padding: 6px;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+td{
+    background-color: rgba(78, 141, 160, 0.829);
+    color: rgb(21, 76, 88);
+    padding: 10px;
+    font-size: small;
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: lighter;
+}
 
+main{
+   
+    width: 50%;
+    padding-top: 20px;
+    margin: auto;
+    color: rgb(16, 51, 75);
+}
+footer{
+    
+    position: fixed;
+    bottom: 0;
+    left: o;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    Background:rgb(21, 76, 88);
+    font-family:Tahoma;
+    Color:rgba(130, 223, 252, 0.829);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+form input{
+    background-color:rgba(130, 223, 252, 0.829);
+    color: rgb(6, 37, 63);
+    height: 20px;
+    width: 150px;
+}
+#film-type{
+    background-color:rgba(130, 223, 252, 0.829);
+    color: rgb(6, 37, 63);
+}
+form textarea{
+    background-color: rgba(17, 109, 110, 0.952);
+    color :rgb(6, 37, 63);
+    font-size: small;
+}
+.linklist{
+    List-style: none;
+    padding:15px;
+    font-style: italic;
+    border-block-end-width: thick;
+    
+}
+.linklist li :active{
+    color:rgba(0, 37, 68, 0.829);
+}
+.linklist li :visited{
+    color: rgba(6, 39, 66, 0.829); 
+    text-shadow: turquoise;
+}
+.linklist li :hover{
+  background-color: rgba(130, 223, 252, 0.829);  
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
 }
